@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最小采集时间间隔"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <EditText
+        android:id="@+id/editTextmin"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp" 
+        android:inputType="number" 
+        android:imeOptions="actionNext" >
+		
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秒"
+ 		android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+	</LinearLayout> 
+	  <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最大采集时间间隔"
+      android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/editTextmax"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp" 
+        android:inputType="number" 
+        android:imeOptions="actionNext" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="秒"
+		android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+	</LinearLayout>  
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缓存数据信号强度门限值"
+        android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge"/>
+	 <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+	
+    <EditText
+        android:id="@+id/editTextThreshold"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dbm"
+        android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+	</LinearLayout>  
+	 <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:text="缓存数据量最大值"
+		android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/editTextdatabasemax"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kb"
+       	android:textColor="#000000"
+       	android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+	</LinearLayout>
+	<Button
+		android:id="@+id/Button_Clear"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"
+      	android:layout_gravity="center|bottom"
+    />
+	
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+   <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<ImageView 
+		android:layout_width="50dip"
+		android:layout_height="50dip"
+		android:visibility="visible"
+		android:src="@drawable/ic_launcher"/>
+	 
+		<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="采集参数"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="采集开始时间： " 
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+	</LinearLayout>  
+	
+	<TextView
+	    android:id="@+id/starttime"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" />
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="采集持续时间： "
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+	</LinearLayout>  
+	
+	<TextView
+	    android:id="@+id/holdingtime"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" />
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="最小采集时间间隔： "
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView
+	    android:id="@+id/mincollecttime"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" />	
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="最大采集时间间隔： "
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView
+	    android:id="@+id/maxcollecttime"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" 
+		/>	
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="本次采集上报次数： "
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView
+	    android:id="@+id/sendcount"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" />	
+	   </LinearLayout>
+	  <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip">
+		<TextView 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="历史采集上报次数： "
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView
+	    android:id="@+id/historycount"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#008000" />	
+	   </LinearLayout>
+	  <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dip"
+		android:layout_gravity="center|bottom">
+		<Button
+        android:id="@+id/Button_Start"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"/>
+        	<Button
+			android:layout_marginLeft="20dip"
+	        android:id="@+id/Button_Delete"
+	      	android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="清除历史数据"
+	        />
+
+	   </LinearLayout>
+
+
+
+  
+
+</LinearLayout>

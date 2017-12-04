@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" 
+        android:background="@drawable/background" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+ 
+	 <LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<ImageView 
+		android:layout_width="50dip"
+		android:layout_height="50dip"
+		android:visibility="visible"
+		android:src="@drawable/ic_launcher"/>
+		
+		<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关于手机"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<TextView 
+		android:id="@+id/MobileRxBytes"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="手机接口接收数据" 
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+	
+		
+		<TextView 
+			android:id="@+id/MobileTxBytes"
+		android:layout_marginTop="10dip"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="手机接口发送数据"
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView 
+		android:id="@+id/TotalRxBytes"
+		android:layout_marginTop="10dip"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="所有接口接收的数据（包含Wifi)"
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+		<TextView 
+		android:id="@+id/TotalTxBytes"
+		android:layout_marginTop="10dip"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:text="所有接口发送的数据（包含Wifi)"
+		android:textAppearance="?android:attr/textAppearanceMedium"  
+		android:textColor="#000000"/>
+	</LinearLayout>  
+		<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<ImageView 
+		android:layout_width="50dip"
+		android:layout_height="50dip"
+		android:visibility="visible"
+		android:src="@drawable/ic_launcher"/>
+		<TextView
+        android:id="@+id/textViewInputPort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="流量查看"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"/>
+	</LinearLayout> 
+
+	  <LinearLayout
+                android:id="@+id/ProcessLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                />
+  
+
+</LinearLayout>
+</ScrollView>

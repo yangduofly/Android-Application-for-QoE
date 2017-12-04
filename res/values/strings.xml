@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="desc">SignalStrenth Collector</string>
+    <string name="app_name">i体验</string>
+    <string name="complaint_name">投诉我吧</string>
+    <string name="network_name">网络环境</string>
+    <string name="traffic_name">流量查看</string>
+    <string name="setting_name">系统设置</string>
+    <string name="Map_name">Map</string>
+    <string name="about_name">关于i体验</string>
+    <string name="collection_name">自动采集</string>
+    <string name="input_custom_complaint">请输入投诉信息</string>
+    <string name="sure_exit_app">确认要退出应用程序？</string>
+    <string name="text_ok">确认</string>
+    <string name="text_cancel">取消</string>
+    <string name="running_background">后台运行</string>
+    <string name="wait_for_moment">请稍等片刻</string>
+    <string name="loading">正在加载中...</string>
+    <string name="network_unavailable">网络连接不可用，请检查网络设置或稍后再试</string>
+    <string name="custom_complaint">用户自定义投诉</string>
+    <string name="setting">设置</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_navi_demo">NaviDemo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="confirm_send_complaint">确认发送投诉信息</string>
+    <string-array name="complaint_type_list">
+        <item >通话质量不好</item>
+        <item >通话中有掉话</item>
+        <item >网络信号不好</item>
+        <item >接通速率较慢</item>
+        <item >上网速度较慢</item>
+        <item >网页打不开</item>
+        <item >自定义投诉</item>
+    </string-array>
+    <string name="successful_sendout">投诉信息已成功发送</string>
+    <string name="network_connected">网络已连接</string>
+    <string name="network_disconnected">网络已断开</string>
+
+    <style name="CustomWindowTitleBackground"> 
+    	<item name="android:background">@drawable/title_bg</item> 
+	</style>
+	 
+	<style name="title" parent="android:Theme"> 
+	    <item name="android:windowTitleSize">50dip</item> 
+	    <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item> 
+	</style>
+	<drawable name="title_bg">#F8F8FF</drawable>
+	<item format="color" name="title_text_color" type="color">#800000</item>
+	<string name="about">关于</string>
+	<string name="application_name">关于i体验</string>
+	<string name="application_version">v0.9.5</string>
+	<string name="company_name">北京博识创智科技发展有限公司 (Borsche)</string>
+	<string name="location_fix_fail">位置信息获取失败,请检查位置服务配置</string>
+	<string name="exit">退出</string>
+	<string name="title_network_fail">网络连接失败</string>
+	<string name="title_sw_upgrade">检查到新版本，是否升级到最新版本？</string>
+    
+</resources>

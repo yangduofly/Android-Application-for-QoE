@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" 
+        android:background="@drawable/background" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal" >
+	<ImageButton
+        android:id="@+id/Button_Complaint"
+        android:layout_width="100dip"
+        android:layout_height="117dip"
+	    android:background="@drawable/compliantbutton"
+       />
+    <ImageButton
+        android:id="@+id/Button_Collect"
+        android:layout_width="100dip"
+        android:layout_height="117dip"
+	    android:background="@drawable/participatebutton"
+		/>
+	<ImageButton
+        android:id="@+id/Button_Network"
+        android:layout_width="100dip"
+        android:layout_height="117dip"
+	    android:background="@drawable/networkbutton"
+        />
+	<ImageButton
+        android:id="@+id/Button_Traffic"
+		android:layout_width="100dip"
+        android:layout_height="117dip"
+		android:background="@drawable/trafficbutton"
+        />
+	<ImageButton
+        android:id="@+id/Button_Setting"
+		android:layout_width="100dip"
+        android:layout_height="117dip"
+	    android:background="@drawable/settingbutton" 
+        />
+   
+	<ImageButton
+        android:id="@+id/Button_About"
+		android:layout_width="100dip"
+        android:layout_height="117dip" 
+	    android:background="@drawable/aboutbutton"
+        />
+	
+</AbsoluteLayout >
+</ScrollView>
